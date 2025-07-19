@@ -124,6 +124,14 @@ export default function NotepadApp() {
             e.preventDefault()
             // Keyboard shortcuts dialog will be triggered by the component
             break
+          case "a":
+            if (e.shiftKey) {
+              e.preventDefault()
+              // Toggle spell checking - this will be handled by the RichTextEditor component
+              const spellCheckButton = document.querySelector("[data-spell-check-toggle]") as HTMLElement
+              spellCheckButton?.click()
+            }
+            break
         }
       }
 

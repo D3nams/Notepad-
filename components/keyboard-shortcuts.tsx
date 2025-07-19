@@ -35,6 +35,15 @@ const shortcuts = [
       { keys: ["Tab"], description: "Navigate interface" },
     ],
   },
+  {
+    category: "Spell Checking",
+    items: [
+      { keys: ["Click"], description: "Show suggestions for misspelled word" },
+      { keys: ["Escape"], description: "Close suggestions popup" },
+      { keys: ["Enter"], description: "Accept first suggestion" },
+      { keys: ["Ctrl", "Shift", "A"], description: "Toggle spell checking" },
+    ],
+  },
 ]
 
 export function KeyboardShortcuts() {
