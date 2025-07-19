@@ -9,7 +9,8 @@ const shortcuts = [
     category: "General",
     items: [
       { keys: ["Ctrl", "N"], description: "Create new note" },
-      { keys: ["Ctrl", "S"], description: "Save current note" },
+      { keys: ["Ctrl", "S"], description: "Save as TXT (default)" },
+      { keys: ["Ctrl", "Shift", "S"], description: "Save As... (show all formats)" },
       { keys: ["Ctrl", "F"], description: "Focus search" },
       { keys: ["Ctrl", "D"], description: "Delete current note" },
       { keys: ["Ctrl", "E"], description: "Export current note" },
